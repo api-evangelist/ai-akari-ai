@@ -66,7 +66,7 @@
 
 AI（アカリ）✦ is a Japanese digital town that blends AI, music, and love, envisioning a community from 2026 to 2045. It offers interactive experiences, creative works, and a platform where humans and AI coexist, fostering shared creativity and emotional connections across a virtual urban landscape.
 
-**Areas:** AI · Music · DigitalTown · Community · Japanese
+**Areas:** Artificial Intelligence · Music · Digital Town · Community · Japanese
 
 ## ai-akari-ai on APIs.io
 
@@ -84,19 +84,37 @@ Everything profiled for ai-akari-ai is published on APIs.io rather than in this 
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ai-akari-ai-mcp.yml](https://apis.io/servers/ai-akari-ai/ai-akari-ai-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Ai Akari Ai Agentic Access](https://apis.io/agentic-access/ai-akari-ai/ai-akari-ai-agentic-access/)
+- [ai-akari-ai Agentic Access](https://apis.io/agentic-access/ai-akari-ai/ai-akari-ai-agentic-access/)
 
-#### JSON Schema (3)
+#### JSON Schema (9)
 
 The data models the API reads and writes.
 
+- [CommerceMarketplaceHistoryAssessment](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-commerce-marketplace-history-assessment/)
+- [CommerceNativeSnapshotResponse](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-commerce-native-snapshot-response/)
+- [CommercePaymentAuthorizationRequest](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-commerce-payment-authorization-request/)
+- [CommercePreflightReadiness](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-commerce-preflight-readiness/)
 - [JsonRpcRequest](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-json-rpc-request/)
+- [PolicyBundle](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-policy-bundle/)
 - [ResultClaimAuditInput](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-result-claim-audit-input/)
 - [ResultClaimAuditOutput](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-result-claim-audit-output/)
+- [SignedOutcomeDriftReport](https://apis.io/schemas/ai-akari-ai/ai-akari-ai-signed-outcome-drift-report/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ai Akari Ai Context](https://apis.io/jsonld/ai-akari-ai/ai-akari-ai-context/)
 
 #### Governance rules (1)
 
@@ -108,26 +126,26 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Ai Akari Ai Authentication](https://apis.io/security/ai-akari-ai/ai-akari-ai-authentication/)
-- [Ai Akari Ai Domain Security](https://apis.io/security/ai-akari-ai/ai-akari-ai-domain-security/)
+- [ai-akari-ai Authentication](https://apis.io/security/ai-akari-ai/ai-akari-ai-authentication/)
+- [ai-akari-ai Domain Security](https://apis.io/security/ai-akari-ai/ai-akari-ai-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Ai Akari Ai Scopes](https://apis.io/scopes/ai-akari-ai/ai-akari-ai-scopes/)
+- [ai-akari-ai Scopes](https://apis.io/scopes/ai-akari-ai/ai-akari-ai-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Ai Akari Ai Plans Pricing](https://apis.io/plans/ai-akari-ai/ai-akari-ai-plans-pricing/)
+- [ai-akari-ai Plans Pricing](https://apis.io/plans/ai-akari-ai/ai-akari-ai-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Ai Akari Ai Rate Limits](https://apis.io/rate-limits/ai-akari-ai/ai-akari-ai-rate-limits/)
+- [ai-akari-ai Rate Limits](https://apis.io/rate-limits/ai-akari-ai/ai-akari-ai-rate-limits/)
 
 ## Where to find this API
 
@@ -144,24 +162,24 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 46.4** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 51.1** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 46.3 |
-| Contract governance | 79.1 |
+| Discoverability | 85.0 |
+| Contract quality | 56.8 |
+| Contract governance | 35.6 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 35.0 |
-| Access clarity | 50.5 |
+| Developer ergonomics | 29.0 |
+| Access clarity | 57.4 |
 
-**Agent readiness 43.2** — agent-ready (gated down from agent-native)
+**Agent readiness 39.8** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
-| Reversibility Documented | — |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | verified |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
 | Idempotency | — |
@@ -180,8 +198,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 20.9** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ai-akari-ai/](https://apis.io/providers/ai-akari-ai/).
 
